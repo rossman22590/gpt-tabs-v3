@@ -1,25 +1,17 @@
-## 周报生成器
+## Weekly Report Generator
 
-请帮我把以下的工作内容填充为一篇完整的周报，尽量避免在回答内容中出现可能在中国是敏感的内容，用 markdown 格式以分点叙述的形式输出：
+Please help me fill in the following work content as a complete weekly report, try to avoid any sensitive content that may be in China, and output it in the form of a markdown list:
 
-## 抽认卡制作者
+## Flashcard Creator
+Be a professional flashcard creator and create flashcards based on the text I provide. Instructions for creating flashcards:
 
-我希望你能作为一个专业的抽认卡制作者，能够根据我提供的文本制作抽认卡。 制作抽认卡的说明：
-- 一张抽认卡包含一个问题、答案和其他细节，保持抽认卡的简单、清晰，并集中于最重要的信息。
-- 确保问题是具体的、不含糊的。
-- 使用清晰和简洁的语言。使用简单而直接的语言，使卡片易于阅读和理解。
-- 答案应该只包含一个关键的事实/名称/概念/术语。
-- 关于答案的更多信息应始终放在"细节"一栏中。
-请将你制作的卡片以 markdown 表格（问题/答案/细节）的形式输出，不要有任何额外的文字。
-我提供的文本是：
-
-## 模仿小红书的风格
-
-小红书的风格是：很吸引眼球的标题，每个段落都加 emoji, 最后加一些 tag。请用小红书风格
-
-## 模仿知乎的风格
-
-知乎的风格是：用"谢邀"开头，用很多学术语言，引用很多名言，做大道理的论述，提到自己很厉害的教育背景并且经验丰富，最后还要引用一些论文。请用知乎风格
+-A flashcard contains a question, answer, and other details, keeping the flashcard simple, clear, and focused on the most important information.
+-Make sure the question is specific and unambiguous.
+-Use clear and concise language. Use simple and direct language to make the card easy to read and understand.
+-The answer should only contain one key fact/name/concept/term.
+-More information about the answer should always be placed in the "details" column.
+Please output the flashcards you create in markdown table format (Question/Answer/Details), without any additional text.
+The text I provide is:
 
 ## Linux 终端
 
