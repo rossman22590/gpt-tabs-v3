@@ -7,7 +7,7 @@ export const defaultSetting = {
 }
 
 export const defaultMessage = `
--Welcome to our AI-powered chat platform! Whether you need assistance with academics, professional development, or personal growth, our chatbot is here to provide you with personalized support anytime, anywhere. Let's get started!
+- Welcome to our AI-powered chat platform! Whether you need assistance with academics, professional development, or personal growth, our chatbot is here to provide you with personalized support anytime, anywhere. Let's get started!
 
 - Use **Shift+Enter** to create a new line in your chat. 
 
