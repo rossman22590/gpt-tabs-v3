@@ -306,7 +306,7 @@ export default function (props: { prompts: PromptItem[] }) {
             <textarea
               ref={inputRef!}
               id="input"
-              placeholder="与 ta 对话吧"
+              placeholder="Let's talk to him/her."
               autocomplete="off"
               value={inputContent()}
               autofocus
