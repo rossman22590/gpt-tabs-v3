@@ -7,7 +7,12 @@ export const defaultSetting = {
 }
 
 export const defaultMessage = `
-- This website is for demonstration purposes only. Please fill in your own key in order to use it
-- Supported by [OpenAI API (gpt-3.5-turbo)](https://platform.openai.com/docs/guides/chat) and [Vercel](http://vercel.com/),
-- **Shift+Enter**  is used to create a new line. Begin your search for Prompt presets by typing **"/"** or **" "** at the beginning. Scroll to the bottom of the input box and click to access the presets.
+-Welcome to our AI-powered chat platform! Whether you need assistance with academics, professional development, or personal growth, our chatbot is here to provide you with personalized support anytime, anywhere. Let's get started!
+
+- Use **Shift+Enter** to create a new line in your chat. 
+
+-To find Prompt presets, start typing "**/**" or " " at the beginning of your message. Find the one you like best and click to access the presets.
+
+- ChatGPT TSI is powered by the OpenAI
+
  `
