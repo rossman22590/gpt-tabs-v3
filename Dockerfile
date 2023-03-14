@@ -1,20 +1,20 @@
-# Use the official Node.js 18 image as the base image
-FROM node:18
+# Set the base image
+FROM node:18-alpine
 
-# Set the working directory
+# Create a working directory
 WORKDIR /app
 
-# Copy the package.json and package-lock.json files to the working directory
+# Copy the package.json and package-lock.json files to the container
 COPY package*.json ./
 
-# Install the dependencies using pnpm
-RUN npm install -g pnpm && pnpm install
+# Install the dependencies
+RUN npm install
 
-# Copy the rest of the application code to the working directory
+# Copy the rest of the application files to the container
 COPY . .
 
-# Expose port 3000 for the application to listen on
+# Expose the application port
 EXPOSE 3000
 
-# Start the application
-CMD ["pnpm", "dev"]
+# Start the application using the --host flag to bind to all network interfaces
+CMD ["npm", "start", "--", "--host", "0.0.0.0"]
